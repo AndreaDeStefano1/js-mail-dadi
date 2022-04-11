@@ -1,0 +1,219 @@
+body{
+  background-color: rgba(3, 198, 3, 0.703);
+  color: rgb(199, 5, 5);
+}
+.debug{
+  border: 1px solid red;
+  background-color: rgba(165, 42, 42, 0.671);
+}
+.minh{
+  min-height: 100px;
+}
+.dice{
+  height: 150px;
+  width: 150px;
+  background-color: white;
+  position: relative;
+  border: 3px solid black;
+  border-radius: 20px;
+}
+/* DADO DA 1 */
+.dice-1{
+  position:absolute;
+  width: 25px;
+  height: 25px;
+  background-color: black;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+/* DADO DA DUE */
+.dice-2a{
+  position:absolute;
+  width: 25px;
+  height: 25px;
+  background-color: black;
+  border-radius: 50%;
+  top: 50%;
+  left: 25%;
+  transform: translateY(-50%);
+}
+.dice-2b{
+  position:absolute;
+  width: 25px;
+  height: 25px;
+  background-color: black;
+  border-radius: 50%;
+  top: 50%;
+  right: 25%;
+  transform: translateY(-50%);
+}
+/* DADO DA 3  */
+.dice-3a{
+  position:absolute;
+  width: 25px;
+  height: 25px;
+  background-color: black;
+  border-radius: 50%;
+  top: 75%;
+  left: 75%;
+  transform: translate(-75%, -75%);
+}
+.dice-3b{
+  position:absolute;
+  width: 25px;
+  height: 25px;
+  background-color: black;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.dice-3c{
+  position:absolute;
+  width: 25px;
+  height: 25px;
+  background-color: black;
+  border-radius: 50%;
+  top: 25%;
+  left: 25%;
+  transform: translate(-25%, -25%);
+}
+
+/* DADO DA 4 */
+
+.dice-4a{
+  position:absolute;
+  width: 25px;
+  height: 25px;
+  background-color: black;
+  border-radius: 50%;
+  top: 25%;
+  left: 25%;
+}
+.dice-4b{
+  position:absolute;
+  width: 25px;
+  height: 25px;
+  background-color: black;
+  border-radius: 50%;
+  bottom: 25%;
+  left: 25%;
+}
+.dice-4c{
+  position:absolute;
+  width: 25px;
+  height: 25px;
+  background-color: black;
+  border-radius: 50%;
+  top: 25%;
+  right: 25%;
+}
+.dice-4d{
+  position:absolute;
+  width: 25px;
+  height: 25px;
+  background-color: black;
+  border-radius: 50%;
+  bottom: 25%;
+  right: 25%; 
+}
+
+/* DADO DA 5 */
+
+.dice-5a{
+  position:absolute;
+  width: 25px;
+  height: 25px;
+  background-color: black;
+  border-radius: 50%;
+  top: 20%;
+  left: 20%;
+}
+.dice-5b{
+  position:absolute;
+  width: 25px;
+  height: 25px;
+  background-color: black;
+  border-radius: 50%;
+  bottom: 20%;
+  left: 20%;
+}
+.dice-5c{
+  position:absolute;
+  width: 25px;
+  height: 25px;
+  background-color: black;
+  border-radius: 50%;
+  top: 20%;
+  right: 20%;
+}
+.dice-5d{
+  position:absolute;
+  width: 25px;
+  height: 25px;
+  background-color: black;
+  border-radius: 50%;
+  bottom: 20%;
+  right: 20%; 
+}
+
+/* DADO DA 6 */
+
+.dice-6a{
+  position:absolute;
+  width: 25px;
+  height: 25px;
+  background-color: black;
+  border-radius: 50%;
+  top: 20%;
+  left: 25%;
+}
+.dice-6b{
+  position:absolute;
+  width: 25px;
+  height: 25px;
+  background-color: black;
+  border-radius: 50%;
+  top: 20%;
+  right: 25%;
+}
+.dice-6c{
+  position:absolute;
+  width: 25px;
+  height: 25px;
+  background-color: black;
+  border-radius: 50%;
+  top: 50%;
+  right: 25%;
+  transform: translateY(-50%);
+}
+.dice-6d{
+  position:absolute;
+  width: 25px;
+  height: 25px;
+  background-color: black;
+  border-radius: 50%;
+  top: 50%;
+  left: 25%;
+  transform: translateY(-50%);
+}
+.dice-6e{
+  position:absolute;
+  width: 25px;
+  height: 25px;
+  background-color: black;
+  border-radius: 50%;
+  bottom: 20%;
+  left: 25%;
+}
+.dice-6f{
+  position:absolute;
+  width: 25px;
+  height: 25px;
+  background-color: black;
+  border-radius: 50%;
+  bottom: 20%;
+  right: 25%; 
+}
